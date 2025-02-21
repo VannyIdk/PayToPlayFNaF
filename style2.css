@@ -1,0 +1,116 @@
+body {
+    width: 100%;
+    margin: 0px;
+    font-family: "Oswald";
+    background-color: #940404;
+    color: aliceblue;
+    background-image: linear-gradient(#940404, rgb(18, 7, 116));
+}
+
+
+header h1 {
+
+text-align: center;
+text-shadow: 3px 3px 3px rgb(190, 87, 87);
+
+}
+
+header img {
+
+width: 50%;
+box-shadow: 0px 0px 0px 0px grey;
+
+}
+
+
+nav {
+
+display: flex;
+justify-content: space-around;
+margin-bottom: 4px;
+
+}
+
+nav a {
+
+color: aliceblue;
+background-color: rgb(29, 3, 3);
+text-decoration: none;
+padding: 1.5%;
+border-radius: 7px;
+border: 5px aliceblue double;
+}
+
+
+.Mygame {
+
+color:  rgb(29, 3, 3); 
+background-color: aliceblue;
+
+}
+
+footer h2 {
+
+text-align: center;
+
+}
+
+footer {
+
+background-color:  rgb(29, 3, 3);
+padding: 1%;
+margin-top: 3%;
+
+}
+
+footer div {
+    height: 100px;
+
+display: flex;
+justify-content: space-around;
+
+}
+
+.Myname {
+
+font-family: "Jaro";
+font-size: 25px;
+margin: 0;
+margin-top: 1.5%;
+
+}
+.sigmameal{
+
+width: 100%;
+display: flex;
+height: 200px;
+justify-content: space-around;
+
+}
+.actors {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+
+}
+
+
+.actor {
+display: flex;
+flex-direction: column;
+width:15%;
+
+}
+.actor p {
+text-align: center;
+
+}
+
+.actor img{
+border-radius: 10px;
+height: 120px;
+object-fit: cover;
+
+
+}
